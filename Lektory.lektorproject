@@ -1,5 +1,5 @@
 [project]
 name = Lektory
 
-[servers.ghpages]
+[servers.ghpages-https]
 target = ghpages+https://gauden/lektory
