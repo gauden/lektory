@@ -3,3 +3,6 @@ name = Lektory
 
 [servers.ghpages-https]
 target = ghpages+https://gauden/lektory
+
+[packages]
+lektor-creative-commons = 0.1.2
