@@ -21,9 +21,30 @@
   <div class="page">
     
   <h2>Welcome to Lektory!</h2>
-  <p>This is a basic demo website that shows how to use Lektor for a basic
-website with some pages and a blog.</p>
-<p>Updated to Lektor 3.0.1 and Python 2.7</p>
+  <p>This is a skeleton Lektor website to be used as the starting point for future sites. It is based on <a href="https://www.getlektor.com/">Lektor 3.0.1</a> (the latest version at the time of writing), Python 2.7 (for reasons explained below), served on Github Pages and https, and automatically deployed via Travis-CI.</p>
+<p>The use of Python 2.7 goes against current trends and indeed against the recommendation of the Lektor documentation itself. But Python 3.5 fails to deploy when using Travis, and it only succeeded after reverting to Python 2.7.</p>
+<p>In particular, the following changes were needed to the settings suggested in the documentation.</p>
+<h3>Contents of <code>.travis.yml</code></h3>
+<pre><code>language: python
+python: 2.7
+install: "pip install Lektor"
+script: "lektor build"
+deploy:
+  provider: script
+  script: "lektor deploy ghpages-https"
+cache:
+  directories:
+    - $HOME/.cache/pip
+    - $HOME/.cache/lektor/builds
+</code></pre>
+<h3>Contents of <code>Lektory.lektorproject</code></h3>
+<pre><code>[project]
+name = Lektory
+
+[servers.ghpages-https]
+target = ghpages+https://gauden/lektory
+</code></pre>
+<p>The discussion on <a href="https://github.com/lektor/lektor/issues/418">this bug</a> on the Lektor development repo and <a href="https://stackoverflow.com/a/38216821/1290420">this answer</a> on StackOverflow helped in my solution. Neither of them worked without the configuration changes above.</p>
 
 
   </div>
