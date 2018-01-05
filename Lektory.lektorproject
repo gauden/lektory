@@ -2,4 +2,4 @@
 name = Lektory
 
 [servers.ghpages]
-target = ghpages+https://gauden/lektory
+target = ghpages+https://gauden/lektory.git
