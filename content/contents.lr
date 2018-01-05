@@ -5,4 +5,4 @@ body:
 This is a basic demo website that shows how to use Lektor for a basic
 website with some pages and a blog.
 
-Updated to Lektor 3.0.1 and using Python 3.5
+Updated to Lektor 3.0.1 and Python 2.7
