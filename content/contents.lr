@@ -2,11 +2,11 @@ title: lektory
 ---
 body:
 
-This is a skeleton Lektor website to be used as the scaffolding for building and deploying more complex sites.
+This is a skeleton Lektor website to be used as the scaffolding for building and deploying more complex sites (see [Github repo](https://github.com/gauden/lektory)).
 
-There is nothing of substance here; it is just a shell of a site, adapted from the one in the documentation with some of the settings tweaked to ensure automatic deployment via Travis-CI is working.
+There is nothing of substance here; it is just a shell, adapted from the one in the documentation with some of the settings tweaked to enable automatic deployment via Travis-CI (see the [README](https://github.com/gauden/lektory/blob/master/README.md)).
 
 This repo also demonstrates:
 
-- how to add a CNAME for serving from a custom domain (see the `servers` settings)
-- how to automatically deploy a plug-in (see the `packages` settings for the Creative Commons example)
+- how to add a CNAME for serving from a custom domain (see the [`servers` settings](https://github.com/gauden/lektory/blob/master/Lektory.lektorproject))
+- how to automatically deploy a plug-in (see the [`packages` settings](https://github.com/gauden/lektory/blob/master/Lektory.lektorproject) for the Creative Commons example)
