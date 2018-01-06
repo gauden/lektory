@@ -1,7 +1,7 @@
 <!doctype html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="./static/style.css">
-<title>Welcome to Lektory! — Lektory</title>
+<title>Deploying Lektor — Lektory</title>
 <body>
   <header>
     <h1>Lektory</h1>
@@ -20,8 +20,8 @@
   </header>
   <div class="page">
     
-  <h2>Welcome to Lektory!</h2>
-  <p>This is a skeleton Lektor website to be used as the starting point for future sites. It is based on <a href="https://www.getlektor.com/">Lektor 3.0.1</a> (the latest version at the time of writing), Python 2.7 (for reasons explained below), served on Github Pages and https, and automatically deployed via Travis-CI.</p>
+  <h2>Deploying Lektor</h2>
+  <p>This is a skeleton Lektor website to be used as the starting point for building and deploying more complex sites. It is based on <a href="https://www.getlektor.com/">Lektor 3.0.1</a> (the latest version at the time of writing) and Python 2.7 (for reasons explained below), served on <a href="https://pages.github.com/">Github Pages</a>, and automatically deployed via <a href="https://travis-ci.org/">Travis-CI</a>.</p>
 <p>The use of Python 2.7 goes against current trends and indeed against the recommendation of the Lektor documentation itself. But Python 3.5 fails to deploy when using Travis, and it only succeeded after reverting to Python 2.7.</p>
 <p>In particular, the following changes were needed to the settings suggested in the documentation.</p>
 <h3>Contents of <code>.travis.yml</code></h3>
