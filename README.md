@@ -1,4 +1,4 @@
-# lektory
+# lektory: Deploying Lektor Sites
 
 This is a skeleton Lektor website to be used as the scaffolding for building and deploying more complex sites. It is based on [Lektor 3.0.1](https://www.getlektor.com/) (the latest version at the time of writing) and Python 2.7 (for reasons explained below), served on [Github Pages](https://pages.github.com/), and automatically deployed via [Travis-CI](https://travis-ci.org/).
 

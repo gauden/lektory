@@ -1,8 +1,10 @@
-title: Deploying Lektor
+title: lektory
 ---
 body:
 
-This is a skeleton Lektor website to be used as the scaffolding for building and deploying more complex sites. There is nothing of substance here; it is just a shell of a site, adapted from the one in the documentation with some of the settings tweaked to ensure automatic deployment via Travis-CI is working.
+This is a skeleton Lektor website to be used as the scaffolding for building and deploying more complex sites.
+
+There is nothing of substance here; it is just a shell of a site, adapted from the one in the documentation with some of the settings tweaked to ensure automatic deployment via Travis-CI is working.
 
 This repo also demonstrates:
 
