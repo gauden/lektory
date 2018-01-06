@@ -2,7 +2,7 @@
 name = Lektory
 
 [servers.ghpages-https]
-target = ghpages+https://gauden/lektory
+target = ghpages+https://gauden/lektory?cname=www.example.com
 
 [packages]
 lektor-creative-commons = 0.1.2

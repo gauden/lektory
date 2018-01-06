@@ -1,6 +1,6 @@
 # lektory
 
-This is a skeleton Lektor website to be used as the starting point for building and deploying more complex sites. It is based on [Lektor 3.0.1](https://www.getlektor.com/) (the latest version at the time of writing) and Python 2.7 (for reasons explained below), served on [Github Pages](https://pages.github.com/), and automatically deployed via [Travis-CI](https://travis-ci.org/).
+This is a skeleton Lektor website to be used as the scaffolding for building and deploying more complex sites. It is based on [Lektor 3.0.1](https://www.getlektor.com/) (the latest version at the time of writing) and Python 2.7 (for reasons explained below), served on [Github Pages](https://pages.github.com/), and automatically deployed via [Travis-CI](https://travis-ci.org/).
 
 The use of Python 2.7 goes against current trends and indeed against the recommendation of the Lektor documentation itself. But Python 3.5 fails to deploy when using Travis, and it only succeeded after reverting to Python 2.7.
 
